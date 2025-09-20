@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CoreCleen Solutions — Smart Cleaning & Waste Services</title>
+  <meta name="description" content="CoreCleen Solutions — trusted cleaning, waste collection, and commercial cleaning services in Kampala, Uganda." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home"><img src="assets/logo.svg" alt="CoreCleen logo" class="logo"> CoreCleen</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+      <button class="btn btn-primary" id="cta-top">Get Early Access</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Clean Smarter. Live Better.</h1>
+          <p class="subtitle">CoreCleen helps households and businesses stay spotless with reliable cleaning and waste management services.</p>
+          <div class="hero-ctas">
+            <button class="btn btn-primary" id="open-modal">Request Early Access</button>
+            <a class="btn btn-secondary" href="#features">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="assets/hero.svg" alt="CoreCleen app preview">
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features container">
+      <h2 class="section-title">Our Features</h2>
+      <div class="cards-grid">
+        <article class="card feature-card reveal">
+          <div class="icon"><img src="assets/icon-schedule.svg" alt=""></div>
+          <h3>Smart Scheduling</h3>
+          <p>Easily book cleaning sessions or waste pickups that fit your routine.</p>
+        </article>
+        <article class="card feature-card reveal">
+          <div class="icon"><img src="assets/icon-recycle.svg" alt=""></div>
+          <h3>Eco-Friendly Disposal</h3>
+          <p>We dispose waste responsibly and promote recycling in every service.</p>
+        </article>
+        <article class="card feature-card reveal">
+          <div class="icon"><img src="assets/icon-office.svg" alt=""></div>
+          <h3>Professional Teams</h3>
+          <p>Our trained staff ensures spotless results for homes and offices alike.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials container">
+      <h2 class="section-title">Happy Clients</h2>
+      <div class="test-grid">
+        <figure class="testimonial card reveal">
+          <img class="avatar" src="assets/avarta1.webp" alt="Reviewer photo">
+          <blockquote>“CoreCleen transformed our office environment. It feels fresh every day!”</blockquote>
+          <figcaption>— Sarah, Office Manager</figcaption>
+        </figure>
+        <figure class="testimonial card reveal">
+          <img class="avatar" src="assets/avatar2.webp" alt="Reviewer photo">
+          <blockquote>“The waste collection is timely and reliable. Highly recommended.”</blockquote>
+          <figcaption>— Michael, Homeowner</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="company container">
+      <h2 class="section-title">About CoreCleen</h2>
+      <p>CoreCleen Solutions is a modern cleaning and waste management company in Kampala, Uganda. We combine professionalism, eco-friendly practices, and cutting-edge technology to deliver outstanding services.</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:corecleensolutions@gmail.com">corecleensolutions@gmail.com</a><br>Phone: <a href="tel:+256707265146">+256 707 265 146</a></p>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <ul class="social">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Location</h3>
+          <p>Kampala, Uganda</p>
+        </div>
+      </div>
+      <div class="legal">© 2025 CoreCleen Solutions</div>
+    </footer>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal-panel">
+      <button class="modal-close" id="modal-close">✕</button>
+      <h3>Join Early Access</h3>
+      <form id="early-form" class="modal-form">
+        <input type="text" name="name" placeholder="Full name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+        <button class="btn btn-primary" type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+  <button id="scrollTop" class="scroll-top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

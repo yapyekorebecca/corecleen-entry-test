@@ -1,0 +1,7 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="8" width="24" height="24" rx="4" fill="#0ea5e9"/>
+  <path d="M8 14h4v8h-4v-8z" fill="white"/>
+  <path d="M14 18h4v4h-4v-4z" fill="white"/>
+  <path d="M20 16h4v6h-4v-6z" fill="white"/>
+  <text x="32" y="24" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0ea5e9">CoreCleen</text>
+</svg>
